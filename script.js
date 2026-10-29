@@ -16,8 +16,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
 
 const stories = [
     { id: 's1', icon: '🐱', title: '1. كُوكُو وَفَرَاشَةُ الرَّبِيعِ', text: 'كَانَتْ هُنَاكَ قِطَّةٌ صَغِيرَةٌ اسْمُهَا كُوكُو، لَوْنُ فَرْوِهَا يُشْبِهُ المِشْمِشَ. تَحِبُّ اللَّعِبَ بِكُرَتِهَا الحَمْرَاءِ. ذَاتَ يَوْمٍ طَارَتْ أَمَامَهَا فَرَاشَةٌ مُلَوَّنَةٌ، فَرَقَضَتْ وَرَاءَهَا بِفَرَحٍ بَيْنَ الأَزْهَارِ العَطِرَةِ حَتَّى انْتَهَى يَوْمُهَا بِشُرْبِ الحَلِيبِ وَالنَّوْمِ العَمِيقِ.', questions: [
